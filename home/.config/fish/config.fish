@@ -1,0 +1,1 @@
+/Users/dani/Dropbox/Mackup/.config/fish/config.fish

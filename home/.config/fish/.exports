@@ -1,0 +1,25 @@
+# Make vim the default editor
+set EDITOR "vim"
+
+# Larger bash history (allow 32³ entries; default is 500)
+set HISTSIZE 32768
+set HISTFILESIZE $HISTSIZE
+set HISTCONTROL ignoredups
+# Make some commands not show up in history
+set HISTIGNORE "ls:cd:cd -:pwd:exit:date:* --help"
+
+# Set language to Spanish and use UTF-8
+set LANG "es_ES"
+set LC_ALL "es_ES.UTF-8"
+
+# Highlight section titles in manual pages
+set LESS_TERMCAP_md "$ORANGE"
+
+# Don’t clear the screen after quitting a manual page
+set MANPAGER "less -X"
+
+# Always enable colored `grep` output
+set GREP_OPTIONS "--color=auto"
+
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+set HOMEBREW_CASK_OPTS "--appdir=/Applications"

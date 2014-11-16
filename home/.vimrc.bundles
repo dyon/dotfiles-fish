@@ -1,0 +1,94 @@
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'Shougo/vimproc'
+
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'spf13/vim-colors'
+NeoBundle 'vim-scripts/xoria256.vim'
+NeoBundle 'tpope/vim-surround'
+"NeoBundle 'spf13/vim-autoclose'
+NeoBundle 'jiangmiao/auto-pairs'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'vim-scripts/sessionman.vim'
+NeoBundle 'matchit.zip'
+"if (has("python") || has("python3"))
+    "NeoBundle 'Lokaltog/powerline', {'rtp':'~/.vim/bundle/powerline/powerline/bindings/vim'}
+"endif
+NeoBundle 'bling/vim-airline'
+NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'godlygeek/csapprox'
+NeoBundle 'jistr/vim-nerdtree-tabs'
+NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'mbbill/undotree'
+NeoBundle 'myusuf3/numbers.vim'
+NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'tpope/vim-abolish.git'
+NeoBundle 'fholgado/minibufexpl.vim'
+"NeoBundle 'bling/vim-bufferline'
+NeoBundle 'jeetsukumaran/vim-buffergator'
+NeoBundle 'sjbach/lusty'
+NeoBundle 'vim-scripts/Gundo'
+NeoBundle 'atweiden/vim-dragvisuals'
+
+" General programming
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'mattn/webapi-vim'
+NeoBundle 'mattn/gist-vim'
+NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'godlygeek/tabular'
+if executable('ctags')
+    NeoBundle 'majutsushi/tagbar'
+endif
+NeoBundle 'ervandew/supertab'
+NeoBundle 'rizzatti/funcoo.vim'
+NeoBundle 'rizzatti/dash.vim'
+NeoBundle 'mattn/emmet-vim'
+
+" Snippets
+NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'honza/vim-snippets'
+
+" PHP
+NeoBundle 'spf13/PIV'
+NeoBundle 'arnaud-lb/vim-php-namespace'
+NeoBundle 'shawncplus/phpcomplete.vim'
+NeoBundle 'xsbeats/vim-blade'
+
+" Python
+NeoBundle 'klen/python-mode'
+NeoBundle 'python.vim'
+NeoBundle 'python_match.vim'
+NeoBundle 'pythoncomplete'
+
+" Javascript
+NeoBundle 'elzr/vim-json'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'briancollins/vim-jst'
+NeoBundle 'kchmck/vim-coffee-script'
+
+" HTML
+NeoBundle 'amirh/HTML-AutoCloseTag'
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'tpope/vim-haml'
+
+" Misc.
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'spf13/vim-preview'
+NeoBundle 'tpope/vim-cucumber'
+NeoBundle 'quentindecock/vim-cucumber-align-pipes'
+NeoBundle 'Puppet-Syntax-Highlighting'
+NeoBundle 'vim-scripts/dbext.vim'
+NeoBundle 'vim-scripts/ack.vim'
+NeoBundle 'rking/ag.vim'
+NeoBundle 'mhinz/vim-startify'
+
+call neobundle#end()
