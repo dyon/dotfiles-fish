@@ -176,3 +176,5 @@ alias gcs='git commit -S'
 alias gsps='git show --pretty=short --show-signature'
 alias gts='git tag -s'
 alias gvt='git verify-tag'
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"

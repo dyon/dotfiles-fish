@@ -9,7 +9,7 @@ set HISTCONTROL ignoredups
 set HISTIGNORE "ls:cd:cd -:pwd:exit:date:* --help"
 
 # Set language to Spanish and use UTF-8
-set LANG "es_ES"
+set LANG "es_ES.UTF-8"
 set LC_ALL "es_ES.UTF-8"
 
 # Highlight section titles in manual pages
