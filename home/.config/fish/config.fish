@@ -10,7 +10,7 @@ set fish_theme robbyrussell
 # Example format: set fish_plugins autojump bundler
 
 # Set PATH variable
-set PATH /usr/local/bin /Users/$USER/.bin /usr/local/mysql/bin /usr/local/php5/bin /Users/$USER/composer-packages/vendor/bin $PATH
+set PATH /usr/local/bin /Users/$USER/.bin /usr/local/mysql/bin /usr/local/php5/bin /Users/$USER/.composer/packages/vendor/bin $PATH
 
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
